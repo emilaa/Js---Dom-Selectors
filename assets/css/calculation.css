@@ -1,0 +1,58 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Michroma-Regular.ttf);
+}
+
+.header{
+    width: 1320px;
+    height: 56px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.header h1{
+    font-family: font;
+    text-align: center;
+    margin-top: -48px;
+}
+
+.header i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 410px;
+}
+
+#calculation .input-number{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#calculation .input-number input{
+    width: 500px;
+    border-radius: 5px;
+}
+
+#calculation .operation{
+    margin-top: 20px;
+    margin-left: 173px;
+}
+
+#calculation .operation button{
+    width: 200px;
+    margin-left: 30px;
+}
+
+#calculation .result{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#calculation .result input{
+    width: 550px;
+    border-radius: 5px;
+}
+
+#calculation .result input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
